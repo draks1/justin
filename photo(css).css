@@ -1,0 +1,137 @@
+
+
+
+/* ---------------------for mobail --------------- */
+
+@media screen and (max-width:700px) {
+
+
+    body{
+       margin: 0;
+        
+       background-color: rgb(28, 26, 28);
+    }
+    *{
+      box-sizing: border-box;
+   }
+
+
+   .im{
+      
+      text-align: right;
+      padding: 50px;
+      
+  }
+  .img{
+      position: fixed;
+      width:  50px;
+      height: 50px;
+      background-color: rgb(145, 159, 164);
+      border-radius: 6px;
+       
+  }
+
+
+ 
+        
+ 
+
+     
+   
+    #ph{
+       
+      color: cadetblue;
+     text-align: center;
+     margin-left: 100px;
+     margin-right: 100px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     border: 3px solid rgb(77, 74, 80);
+     border-radius: 9px;
+    } 
+
+    #image{
+      text-align: center;
+     }
+
+
+    #image img{
+       
+      width: 400px;
+      height: 250px;
+      margin: 10px 0;
+      border-radius: 15px;
+      cursor: copy;
+  }
+
+  #image img:hover{
+   box-shadow: 5px 5px 6px rgb(19, 19, 39);
+  }
+
+}   
+
+
+
+
+/* ---------------------for desktop --------------- */
+
+@media screen and (min-width:700px){
+
+
+
+   body{
+      background-color: rgb(22, 20, 20);
+      margin: 0;
+   }
+
+
+   .im{
+      
+      text-align: left;
+      padding: 10px 0 0 50px;
+      
+  }
+  .img{
+      position: fixed;
+      width:  50px;
+      height: 50px;
+      background-color: rgb(138, 114, 142);
+      border-radius: 6px;
+       
+  }
+
+  
+ 
+     #ph{
+      
+      color: darkcyan;
+      text-align: center;
+      width: 300px;
+      margin-left: 400px;
+      margin-right: 400px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+      border: 3px solid rgb(109, 97, 120);
+      border-radius: 9px;
+     } 
+
+     #image{
+      text-align: center;
+     }
+
+     #image img{
+      width: 500px;
+      height: 350px;
+      margin: 10px 10px;
+      border-radius: 6px;
+      cursor: copy;
+  }
+     
+
+  #image img:hover{
+   box-shadow: 5px 5px 6px rgb(19, 19, 39);
+  }
+
+
+  
+}
